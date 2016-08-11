@@ -31,7 +31,7 @@
 						<div class="left search-for-item">
 							<form name="search-for-item">
 								<i class="fa fa-search icon" aria-hidden="true"></i>
-								<input type="text" placeholder="Search..." name="q" value="" autofocus="false">
+								<input type="text" placeholder="Scroll down!" name="q" value="" autofocus="false">
 							</form>
 						</div>
 						<div class="left search-for-location">
@@ -47,10 +47,10 @@
 				</div>
 				<div class="menu-container">
 					<ul class="main-menu">
-						<li class="sell"><i class="fa fa-camera" aria-hidden="true"></i> Sell</li>
-						<li class="anchor menu-a">About</li>
-						<li class="menu-a">Login</li>
-						<li class="menu-a">Sign Up</li>
+						<li class="sell"><a class="navpoint" href="#description"><i class="fa fa-camera" aria-hidden="true"></i> Sell</a></li>
+						<li class="anchor menu-a"><a class="navpoint" href="#description">About</a></li>
+						<li class="menu-a"><a class="navpoint" href="#description">Login</a></li>
+						<li class="menu-a"><a class="navpoint" href="#description">Sign Up</a></li>
 					</ul>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 				</a>
 
 				<!-- Thumbnails --> 
-				<ul class="thumbnails-carousel clearfix">
+				<ul id="description" class="thumbnails-carousel clearfix">
 					<li><img src="img/project1.png" alt="1_tn.jpg"></li>
 					<li><img src="img/project2.png" alt="1_tn.jpg"></li>
 					<li><img src="img/project3.png" alt="1_tn.jpg"></li>
@@ -229,5 +229,6 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="app.js"></script>
+	<script src="jquery-ui.min.js"></script>
 </body>
 </html>
