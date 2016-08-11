@@ -41,7 +41,6 @@ header{
 	padding-left: 83px;
 	display: block;
 }
-
 .search-container{
 	display: inline-block;
 }
@@ -131,7 +130,22 @@ ul.main-menu>li, .dropdown-nav .sub-menu>li {
   cursor: pointer;
   font-size: 1.2em;
 }
-
+.sell .navpoint, .sell .navpoint:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.navpoint{
+  color: hsla(0,0%,100%,.8);
+  text-decoration: none;
+}
+.main-menu .navpoint:visited{
+  color: hsla(0,0%,100%,.8);
+  text-decoration: none;
+}
+.navpoint:hover{
+  color: #fff;
+  text-decoration: none;
+}
 .sell{
 	padding: 3px 11px;
 	background: none;
