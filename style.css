@@ -88,17 +88,17 @@ input{
 	max-width: 125px;
 }
 
-#search-submit-button{
+#search-submit-button,
+#search-submit-button:hover, 
+#search-submit-button:visited,
+#search-submit-button:active{
 	padding: 5px 15px;
   color: #969696;
   background-color: #ececec;
   position: absolute;
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
-}
-
-#search-submit-button:hover{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 textarea:focus, input:focus{
@@ -130,19 +130,11 @@ ul.main-menu>li, .dropdown-nav .sub-menu>li {
   cursor: pointer;
   font-size: 1.2em;
 }
-.sell .navpoint, .sell .navpoint:hover{
-  color: #fff;
-  text-decoration: none;
-}
-.navpoint{
+.navpoint.dark, .navpoint.dark:visited, .navpoint.dark:active{
   color: hsla(0,0%,100%,.8);
   text-decoration: none;
 }
-.main-menu .navpoint:visited{
-  color: hsla(0,0%,100%,.8);
-  text-decoration: none;
-}
-.navpoint:hover{
+.navpoint.dark:hover{
   color: #fff;
   text-decoration: none;
 }
@@ -150,15 +142,16 @@ ul.main-menu>li, .dropdown-nav .sub-menu>li {
 	padding: 3px 11px;
 	background: none;
   border: 2px solid hsla(0,0%,100%,.3);
-  color: #fff!important;
   border-radius: 3px;
+}
+.navpoint.light, .navpoint.light:hover, 
+.navpoint.light:active, .navpoint.light:visited{
+  color: #fff;
   text-decoration: none;
 }
-
 .sell:hover{
 	border-color: #fff;
 }
-
 .anchor::after {
   border-bottom: 2px solid hsla(0,0%,100%,.3);
   border-left: 2px solid hsla(0,0%,100%,.3);
@@ -197,7 +190,6 @@ body .banner{
 
 }
 .app_promotion_banner{
-	background-color: hsla(0,0%,100%,.8);
 	padding-bottom: 57px;
 	max-width: 950px;
 	margin-right: auto;
@@ -384,7 +376,7 @@ ul.thumbnails-carousel li img:hover{
  border-top-left-radius: 6px;
  border-top-right-radius: 6px;
  width: 55px!important;
- height: 500px!important;
+ height: 475px!important;
 }
 .pad-more {
   margin-top: -5px;
