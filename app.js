@@ -10,7 +10,6 @@
             window.location.hash = target;
         });
     });
-
 // thumbnails.carousel.js jQuery plugin
 ;(function(window, $, undefined) {
   var conf = {
