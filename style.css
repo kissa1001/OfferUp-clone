@@ -593,6 +593,7 @@ ul.thumbnails-carousel li img:hover{
   .app_promotion_banner {
     padding-top: 45px;
     padding-bottom: 0;
+    text-align: center;
   }
   .main{
     max-width: 285px;
@@ -824,5 +825,10 @@ ul.thumbnails-carousel li img:hover{
   #footer{
     font-size: 1em;
     padding: 15px 0;
+  }
+}
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+  body, header .container, .app-promotion-banner{
+    min-width: 970px;
   }
 }
